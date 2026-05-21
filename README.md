@@ -12,6 +12,21 @@ The adaptation was developed by [Paulo de Assis](https://github.com/MetamusicX) 
 2. **Design exploration** — adapting the pattern to academic research: domain-specific page types, ingest/query/lint workflows, folder conventions
 3. **Implementation via Claude Code** — building the full system: `CLAUDE.md` schema with six page templates and three workflows, folder structure, first ingest producing 38 wiki pages in a single pass
 
+## Template vs. live wiki
+
+This repository is the **template** — the unspecialised seed. The `CLAUDE.md` here ships with placeholder Domain Context ("Customize this section") and an empty `raw/`. Fork it and make it yours.
+
+My own working wiki — the one I actually ingest into daily — is a separate version specialised to my research (Continental philosophy of science, new music studies, posthuman music). On top of this template it adds a populated Domain Context (Deleuze, Simondon, Bachelard, DeLanda, Ferneyhough, Rheinberger…), pre-named project subfolders for active research and writing projects, and a few editorial conventions specific to my workflow. The schema, workflows, and page templates are the same as what you find here.
+
+## A note on related systems
+
+Two adjacent systems in my own setup share this repository's DNA but serve different ends, and they sometimes get confused with the research wiki:
+
+- **MetamusicX wiki** — a Quartz site built from research-team meeting transcripts. Same Karpathy pattern, but the raw layer is spoken conversation and the synthesis layer is atomic entities (composers, philosophers, concepts, threads) extracted by a dedicated agent.
+- **Alluvium** — a journal-to-atomic-notes pipeline organised around PARA rather than concepts/authors. Same idea (immutable raw, curated atoms, append-only log) applied to daily voice and text journals.
+
+These are mentioned only so forkers understand the *scope* of this template: it is the academic-research variant. Meetings, journals, and other input types live in separate systems with their own schemas.
+
 ## What it does
 
 Every time a source is ingested, Claude reads it, extracts key claims and quotes, and writes or updates markdown pages across the wiki — concept pages, author pages, debate pages, synthesis pages, and source notes. The raw documents are never modified. The wiki is the living layer that accumulates knowledge across all ingested sources.
