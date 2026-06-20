@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/MetamusicX/llm-research-wiki/discussions
+    about: Ask how the wiki pattern works, or share how you've adapted it in your fork.
+  - name: Karpathy's original LLM Wiki pattern
+    url: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+    about: Background on the pattern this template implements.

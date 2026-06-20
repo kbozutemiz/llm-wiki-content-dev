@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in the template (schema, page templates, workflows, docs) doesn't work as described.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. This is for problems with the **template itself** — not with content in your own fork.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did Claude Code (or the template) do, and what did you expect instead?
+      placeholder: "When I ran 'ingest …', the agent modified a file in raw/, which the schema says it should never do."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Fork at commit …
+        2. Add a source to raw/notes/
+        3. Say "ingest …"
+        4. Observe …
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where in the template?
+      description: Which file or section is involved, if you know.
+      placeholder: "CLAUDE.md — Workflow 1: INGEST, step 6"
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Environment
+      description: Claude Code version / interface (terminal, VS Code, desktop), and anything else relevant.
+    validations:
+      required: false

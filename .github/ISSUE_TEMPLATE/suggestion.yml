@@ -1,0 +1,30 @@
+name: Improvement or idea
+description: Suggest a change to the schema, a new page type, a workflow improvement, or better docs.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas for improving the **template** are welcome. For changes to your own wiki content, keep them in your fork.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's the idea?
+      description: Describe the improvement and the problem it solves.
+      placeholder: "A 'method' page type exists in CLAUDE.md but isn't documented in the README's page-types table."
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why does it help?
+      description: Who benefits, and how? If it changes the schema, what's the wider effect?
+    validations:
+      required: false
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This improves the template for everyone (not just my own research setup)
+          required: true
