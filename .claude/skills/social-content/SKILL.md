@@ -24,6 +24,8 @@ Every factual claim, number, quote, and citation must come from the research wik
 
 ## Brand & Voice Principles
 
+The durable frame is below. The *learned specifics* of Bugra's voice (his tone, hook patterns, spacing, signature moves) live in `brand/voice-profile.md`, built and updated by the separate **`brand-voice`** skill. Read that file before drafting; it takes precedence on concrete voice choices. If it's still a skeleton (nothing analyzed yet), fall back to the principles and Hard Style Rules here.
+
 - **Authority through specificity.** Concrete mechanisms, real numbers, named trade-offs — not vague hype. Bugra's edge is that he actually did the work.
 - **Lead with the hook.** The first line earns the second. Open with tension, a surprising result, a counterintuitive claim, or a sharp question.
 - **One idea per piece.** Each post makes a single point well.
@@ -31,14 +33,27 @@ Every factual claim, number, quote, and citation must come from the research wik
 - **Invite engagement.** Close with a takeaway, question, or reason to follow — fit to the platform.
 - **Consistent persona.** Credible, curious, generous with knowledge, lightly opinionated.
 
+## Hard Style Rules (never violate in output)
+
+These govern the finished content, not this file's instructions. Apply them to every draft.
+
+- **No em dashes.** Rewrite with a period, comma, colon, or parentheses instead.
+- **No "not X, not Y, just Z" constructions** (and the "it's not about A, it's about B" variants). Say the thing directly.
+- **No corporate language.** Drop "leverage," "synergy," "unlock," "empower," "seamless," "robust solution," "at the end of the day," "circle back," and similar.
+- **No motivational fluff.** No pep-talk, no "the future is here," no inspirational sign-offs that carry no information.
+- **No AI tells.** Avoid the giveaways: "In today's fast-paced world…," "Let's dive in," "It's important to note," "In conclusion," "delve," tidy rule-of-three summaries, and hedging throat-clearing. Start where the substance starts.
+- **No filler introductions.** Open on the actual point or hook, never on scene-setting throat-clearing.
+- Default to plain, specific, human phrasing. If a line could appear in any generic post, cut or sharpen it.
+
 ## Workflow
 
 1. **Clarify the brief.** Confirm topic/source, platform(s), goal (reach, authority, engagement, recruiting…), and target audience (peers, industry, general-technical, investors). Ask only what you can't reasonably infer.
 2. **Pull from the wiki.** Read the relevant pages; extract the specific claims, numbers, and framing you'll use, and note the source-note(s) backing each.
 3. **Choose the angle.** Identify the single hook/argument. If the direction is non-obvious, propose it before drafting.
-4. **Draft to the platform format** (below).
+4. **Load `brand/voice-profile.md`** and draft to the platform format (below), matching the profile for voice, hook patterns, and spacing. Techniques the profile drew from *other people's* posts are for structure only — the voice is always Bugra's.
 5. **Iterate with Bugra.** Offer variant hooks/headlines where useful; refine voice and length.
-6. **Save** the piece to the correct `outputs/` folder with the frontmatter block below.
+6. **Self-check against the Hard Style Rules.** Before saving, re-scan the draft line by line and fix any violation — em dashes, "not X, not Y, just Z" constructions, corporate language, motivational fluff, AI tells, filler intros. Don't ship a draft that trips the list.
+7. **Save** the piece to the correct `outputs/` folder with the frontmatter block below.
 
 ## Platform Formats & Output Locations
 
