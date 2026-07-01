@@ -1,6 +1,6 @@
 # LLM Research Wiki
 
-A personal, LLM-maintained knowledge base for academic research, built on plain markdown files and operated via [Claude Code](https://claude.ai/code).
+A personal, LLM-maintained knowledge base for academic research and content creation, built on plain markdown files and operated via [Claude Code](https://claude.ai/code).
 
 ## Origin
 
@@ -66,7 +66,7 @@ wiki/
   concepts/   authors/   debates/   themes/   methods/
   syntheses/   source-notes/   projects/
 outputs/
-  essays/   slides/   handouts/   tables/
+  blog-posts/   posts/   slides/   tables/   threads/   video-scipts/long-form   video-scripts/short-form
 conversations/
 archive/
 ```
